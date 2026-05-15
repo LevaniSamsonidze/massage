@@ -5,6 +5,7 @@ function App() {
         <div>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="*" element={<h1>404 - გვერდი ვერ მოიძებნა</h1>} />
             </Routes>
         </div>
     )

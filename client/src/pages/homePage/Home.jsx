@@ -72,7 +72,7 @@ const Home = () => {
                 <a href="#" className="flex items-center gap-3 no-underline">
                     <div className="w-[58px] h-[58px] sm:w-[64px] sm:h-[64px] rounded-full overflow-hidden border-2 border-[#7B5EA7] bg-white shadow-[0_4px_20px_rgba(123,94,167,.15)] shrink-0">
                         <img
-                            src="/img/692419500_122207180444375939_1164460202911988608_n.jpg"
+                            src="/logo.jpg"
                             alt=""
                             className="w-full h-full object-cover"
                         />
@@ -173,7 +173,7 @@ const Home = () => {
  
                         <div className="row-span-2 rounded-[60px_60px_60px_20px] overflow-hidden border border-white/30 bg-white/20 shadow-[0_10px_40px_rgba(0,0,0,.08)] h-[540px]">
                             <img
-                                src="/img/c6fd17e4-0426-49f1-9b83-5ff5efccd30d.jpg"
+                                src="/room.jpg"
                                 alt=""
                                 className="w-full h-full object-cover"
                             />
@@ -181,7 +181,7 @@ const Home = () => {
  
                         <div className="rounded-[20px] overflow-hidden border border-white/30 bg-white/20 shadow-[0_10px_40px_rgba(0,0,0,.08)] h-[260px]">
                             <img
-                                src="/img/masaji_2019-08-23_iL9doBPlnjU.jpg"
+                                src="/child.jpg"
                                 alt=""
                                 className="w-full h-full object-cover"
                             />
@@ -189,7 +189,7 @@ const Home = () => {
  
                         <div className="rounded-[20px_20px_60px_20px] overflow-hidden border border-white/30 bg-white/20 shadow-[0_10px_40px_rgba(0,0,0,.08)] h-[260px]">
                             <img
-                                src="/img/fony-video-biuti-vdokhnovenie-i-estetika-1698832681.jpeg"
+                                src="/head.jpeg"
                                 alt=""
                                 className="w-full h-full object-cover"
                             />
