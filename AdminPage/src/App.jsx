@@ -12,13 +12,14 @@ function App() {
  
     useEffect(() => {
         getUsers();
+        console.log(API)
     }, [])
  
     const getUsers = async () => {
         setLoading(true);
         const response = await fetch(`${API}/users`);
         const data = await response.json();
-        
+
         setUsers(data.users);
         setVerifyUsers(data.verifiedUsers);
         setLoading(false);
@@ -72,7 +73,6 @@ function App() {
  
             <main className="admin-main">
  
-                {/* ── მომლოდინე ── */}
                 <section className="admin-section">
                     <div className="admin-section__head">
                         <h2 className="admin-section__title">მომლოდინე მომხმარებლები</h2>
@@ -136,7 +136,6 @@ function App() {
                     )}
                 </section>
  
-                {/* ── დადასტურებული ── */}
                 <section className="admin-section">
                     <div className="admin-section__head">
                         <h2 className="admin-section__title">დადასტურებული მომხმარებლები</h2>
